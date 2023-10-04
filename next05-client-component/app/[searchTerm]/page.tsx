@@ -7,6 +7,13 @@ type Props = {
   };
 };
 
+// 11 - 12 (next-auth)
+// 12 - 1pm (next-auth)
+// 1 - 2pm (lunch)
+// 2 - 3pm (project dir)
+// 3 - 4pm (project dir)
+// 4 - 5pm (gym)
+
 export async function generateMetadata({ params: { searchTerm } }: Props) {
   const wikiData: Promise<SearchResult> = getWikiResults(searchTerm);
   const data = await wikiData;
