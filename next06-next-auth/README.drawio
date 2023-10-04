@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="oJe3dtEBABIRAihNMSXG" name="Page-1">
-        <mxGraphModel dx="1188" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="743" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -160,29 +160,71 @@
                 <mxCell id="57" value="page.tsx" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
                     <mxGeometry x="720" y="610" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="61" style="edgeStyle=none;html=1;" edge="1" parent="1" source="59" target="60">
+                <mxCell id="61" style="edgeStyle=none;html=1;dashed=1;" edge="1" parent="1" source="59" target="60">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" style="edgeStyle=none;html=1;entryX=0.16;entryY=0.55;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="59" target="69">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="59" value="Parent: Server Component" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
                     <mxGeometry x="240" y="1150" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="60" value="Child: Client Component" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
-                    <mxGeometry x="240" y="1270" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="62" value="redirect('/api/auth/signin?callbackUrl=/server'))" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="370" y="1180" width="270" height="30" as="geometry"/>
+                    <mxGeometry x="240" y="1340" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="63" value="getServerSession()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="370" y="1150" width="130" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="64" value="access session via props from parent" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="380" y="1310" width="220" height="30" as="geometry"/>
+                    <mxGeometry x="380" y="1156" width="130" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="65" value="Component's Auth Flow" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=5" vertex="1" parent="1">
-                    <mxGeometry x="60" y="1210" width="160" height="30" as="geometry"/>
+                    <mxGeometry x="30" y="1263" width="160" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="67" value="PATH BASED DIRECTORY" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=5" vertex="1" parent="1">
                     <mxGeometry x="55" y="70" width="170" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" value="session" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="510" y="1137" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" value="AuthProvider" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="1240" width="120" height="53" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" value="Child: Client Component" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+                    <mxGeometry x="250" y="1350" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="73" value="Child: Client Component" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+                    <mxGeometry x="260" y="1360" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="83" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="74" target="79">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="84" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="74" target="75">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" value="Child: Client Component" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+                    <mxGeometry x="270" y="1370" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" value="Child: Client Component" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+                    <mxGeometry x="370" y="1460" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="76" value="Child: Client Component" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+                    <mxGeometry x="380" y="1470" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="77" value="Child: Client Component" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+                    <mxGeometry x="390" y="1480" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="78" value="Child: Client Component" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+                    <mxGeometry x="400" y="1490" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="79" value="Child: Client Component" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+                    <mxGeometry x="160" y="1465" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="80" value="Child: Client Component" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+                    <mxGeometry x="170" y="1475" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="81" value="Child: Client Component" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+                    <mxGeometry x="180" y="1485" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="82" value="Child: Client Component" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+                    <mxGeometry x="190" y="1495" width="120" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
