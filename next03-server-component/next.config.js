@@ -1,14 +1,4 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-    images: {
-        remotePatterns: [
-            {
-                protocol: 'https',
-                host: 'upload.wikimedia.org',
-                port: '',
-            }
-        ]
-    }
-}
+const nextConfig = {}
 
 module.exports = nextConfig
