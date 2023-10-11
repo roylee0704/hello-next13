@@ -7,7 +7,11 @@ type Props = {
 };
 
 export default async function UserPosts({ promise }: Props) {
+  // delay 5 seconds before rendering the posts.
+  await new Promise((resolve) => setTimeout(resolve, 5000));
+
   const posts = await promise;
+
   const content = posts.map((post) => {
     return (
       <article key={post.id}>
